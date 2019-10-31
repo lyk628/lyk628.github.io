@@ -103,7 +103,7 @@
 	height: 100px;
 	width: 76px;
 	margin-top: 18px;
-	margin-left: 48px;
+	margin-left: 90px;
 }
 
 .tu1:hover {
@@ -125,20 +125,20 @@
 	background: rgb(0, 157, 238);
 	position: relative;
 	top: 35px;
-	left: 770px;
+	left: 1050px;
 }
 
 .landian1 span {
 	position: relative;
 	top: 15px;
 	font-size: 18px;
-	left: 140px;
+	left: 290px;
 }
 
 .landian1 p {
 	position: relative;
 	top: 18px;
-	left: 130px;
+	left: 285px;
 	font-size: 15px;
 	color: #7C7C7C;
 }
@@ -155,7 +155,7 @@
 	height: 100px;
 	width: 76px;
 	margin-top: -33px;
-	margin-left: 50px;
+	margin-left: 90px;
 
 }
 
@@ -166,9 +166,9 @@
 }
 
 .jietu2 {
-	margin-left: 120px;
+	margin-left: 300px;
 	display: inline-block;
-	margin: 0 auto;
+	
 }
 
 
@@ -233,7 +233,7 @@
 	display: inline-block;
 	position: relative;
 	top: -430px;
-	left: 1010px;
+	left: 1500px;
 	z-index: 0;
 }
 
@@ -304,6 +304,5 @@
 }
 .youxian{
 	position: relative;
-	margin-top: 1px;
 	left: 40px;
 }
