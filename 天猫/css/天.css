@@ -27,6 +27,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	onclick:alert('仅仅是能点而已...');
     
 }
 @media (max-width: 900px){
@@ -188,3 +189,11 @@
 	height:500px;
 	margin: 0 auto;
 }
+
+@media (max-width: 900px){
+	.end{
+		display: none;
+	}
+	
+	
+	}
