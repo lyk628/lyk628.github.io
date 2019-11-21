@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<form onsubmit=" submitTable()">
+
+			学号：<input type="text" id="account"><br>
+
+			姓名：<input type="text" id="name"><br>
+
+
+			<input name="submit" type="button" id="submit" value="增加" onclick=" submitTable()">
+
+		</form>
+
+		<hr>
+
+		<table border="1" width="50%"   id="table"  >
+			<tbody id="list" onclick="remove()">
+			<tr >
+				<th>学号</th>
+				<th>姓名</th>
+				<th>其他</th>
+			</tr>
+			</tbody>
+		</table>
+
+		<script type="text/javascript">
+			prompt('您的年龄是？');
+			alert('鉴于您的年龄，将为你提供合适的内容。');
+            alert('不过...我是真的不会做......');
+			function submitTable() {
+
+				var account = document.getElementById("account").value;
+
+				var name = document.getElementById("name").value;
+
+				row = document.getElementById("table").insertRow();
+
+				cell = row.insertCell();
+
+				cell.innerHTML = account;
+
+				cell = row.insertCell();
+
+				cell.innerHTML = name;
+
+				cell = row.insertCell();
+
+				cell.innerHTML = ("删除");
+
+			}
+
+			function remove() {
+				var father = document.getElementById("list");
+				father.removeChild(father.lastChild);
+			}
+		</script>
+	</body>
+</html>
