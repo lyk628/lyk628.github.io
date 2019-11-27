@@ -1,0 +1,18 @@
+.jieshao{
+	float: left;
+	margin-left: 30px;
+	font-size: 20px;
+	width: 570px;
+}
+.jieshao span{
+	line-height: 50px;
+	text-shadow: 5px 5px 5px #87CEEB;
+}
+.sp{
+	float: left;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	height: 1400px;
+}
