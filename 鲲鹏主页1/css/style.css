@@ -1,11 +1,11 @@
 *{margin:0;padding:0;list-style-type:none;}
 
 #nav-1 .nav {
- position: fixed;
+  position: fixed;
   top: 0;
   width: 1500px;
   border: none;
- display: flex;
+  display: flex;
   list-style: none;
   background: #f5f5f5;
   box-shadow: 20px 40px 50px #00000044;
@@ -29,8 +29,23 @@
   z-index: 3;
 }
 
-#nav-1 .nav a:hover{
-	color: deepskyblue;
+#nav-1 .slide1,
+#nav-1 .slide2 {
+  position: absolute;
+  display: inline-block;
+  height: 3em;
+  border-radius: 10em;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1.05);
+}
+#nav-1 .nav .slide1 {
+  background-color:deepskyblue;
+  z-index: 2;
+}
+
+.squeeze {
+  transition: all 1.5s;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
  .carousel-inner img {
@@ -64,6 +79,8 @@
    	height: 750px;
    	margin-top: 20px;
    	padding-top: 50px;
+   	/*	background: #009DFF;*/
+   	/*border: 1px solid red;*/
    	overflow: hidden;
    }
    
@@ -72,6 +89,7 @@
    	margin: 0 auto;
    	background: #fff;
    	height: 620px;
+   	/* border: 1px solid red;*/
    	overflow: hidden;
    }
    
@@ -96,6 +114,7 @@
    .clasg .bay a {
    	width: 180px;
    	height: 260px;
+   	/*border: 1px solid red;*/
    	float: left;
    	-webkit-transition: all ease-in .4s;
    	transition: all ease-in .4s;
@@ -104,6 +123,7 @@
    }
    
    .clasg .bay .clasdis {
+   	/*	border-right: 1px solid #d5d5d5;*/
    	width: 180px;
    	height: 260px;
    	text-align: center;
@@ -281,6 +301,7 @@
  	width: 1160px;
  	margin: 0 auto;
  	height: 500px;
+ 	/*border: 1px solid red;*/
  	font-family: "微软雅黑";
  	overflow: hidden;
  }
