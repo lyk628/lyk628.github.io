@@ -72,26 +72,15 @@
    	margin: 0 auto;
    	background: #fff;
    	height: 620px;
-   	overflow: hidden;
+   	text-align: center;
+	font-size: 24px;
    }
    
    .clasg li a:hover {
    	background: #e2e6e6;
    }
    
-   .clasg>h1 {
-   	padding-top: 5px;
-   	text-align: center;
-   	font-family: "华文隶书";
-   }
-   
-   .clasg>p {
-   	padding-top: 20px;
-   	text-align: center;
-   	padding-bottom: 15px;
-   	font-family: "华文隶书";
-   	font-size: 20px;
-   }
+  
    
    .clasg .bay a {
    	width: 180px;
